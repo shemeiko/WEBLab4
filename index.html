@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form id="userForm">
+        <label>
+            Імʼя:
+            <input type="text" id="nameInput">
+        </label>
+
+        <label>
+            Вік:
+            <input type="number" id="ageInput">
+        </label>
+
+        <label>
+            Місто:
+            <input type="text" id="cityInput">
+        </label>
+
+        <button type="button" id="addButton">Додати</button>
+        </form>
+
+        <ul id="chboxes">
+            <li>
+                <label for="name">Name</label>
+                <input class="chbox" type="checkbox" name="name">
+            </li>
+            <li>
+                <label for="age">Age</label>
+                <input class="chbox" type="checkbox" name="age">
+            </li>
+            <li>
+                <label for="city">City</label>
+                <input class="chbox" type="checkbox" name="city">
+            </li>
+        </ul>
+        <br/>
+        <h2>List:</h2>
+        <ul id="outputList"></ul>
+    </div>
+    
+</body>
+</html>
